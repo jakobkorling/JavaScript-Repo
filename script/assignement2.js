@@ -4,7 +4,7 @@
 let input = prompt("Enter price tag $49.99");
 
 // Replaces dollar sign to nothing
-let noDollarSign = input.replace("$", "");
+let noDollarSign = input.replace("$", " ");
 
 //Declares priceTag to be a number and not text
 let priceTag = Number(noDollarSign);
